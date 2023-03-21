@@ -1,0 +1,124 @@
+.photo {
+  height: 250px;
+  border-radius: 12px;
+  margin: auto 0px;
+}
+
+.block {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 2px solid #7f00ff;
+  border-radius: 12px;
+  margin-top: 5rem;
+  width: 40%;
+  margin-left: 2.5vw;
+}
+
+p {
+  padding: 20px;
+}
+
+.topline {
+  margin-top: 4rem;
+}
+
+.block1 {
+  width: 40%;
+  display: flex;
+  height: fit-content;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 2px solid #7f00ff;
+  border-radius: 12px;
+  margin: 37px;
+  margin-left: 2.5vw;
+  margin-top: 5rem;
+}
+
+.block2 {
+  width: 40%;
+  display: flex;
+  height: fit-content;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 2px solid #7f00ff;
+  border-radius: 12px;
+  margin: 37px;
+  margin-left: 2.5vw;
+  margin-top: 5rem;
+}
+
+.after {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.block:hover {
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+
+.block1:hover {
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+
+.block2:hover {
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+
+.para {
+  text-align: center;
+}
+
+.block1::after {
+  position: absolute;
+  content: "";
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  left: 88%;
+  top: 80%;
+  background: linear-gradient(45deg, #7f00ff, pink);
+  animation: object4 3s linear infinite;
+}
+
+.after::before{
+  position: absolute;
+  content: "";
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  left: 80%;
+  top: 150%;
+  background: linear-gradient(45deg, #7f00ff, pink);
+  animation: object5 3s linear infinite;
+}
+
+@keyframes object4 {
+    50% {
+      left: 85%;
+      top: 80%;
+    }
+  }
+
+@keyframes object5 {
+    50% {
+      left: 75%;
+      top: 142%;
+    }
+  }
+
+body{
+    overflow-x: hidden;
+}
+
+.main{
+  display: flex;
+}

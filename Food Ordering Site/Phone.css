@@ -1,0 +1,313 @@
+#serve {
+  flex-direction: column;
+  align-items: center;
+}
+
+#serve .box {
+  padding: 23px;
+  align-items: center;
+  text-align: center;
+  margin: 13rem 10px;
+  border-radius: 32px;
+  margin-top: -11.4rem;
+  flex-direction: column;
+}
+
+#serve .box img {
+  height: 100px;
+  margin: auto;
+  display: block;
+}
+
+.h-primary-s {
+  font-size: 3.6rem;
+  padding: 3rem;
+  margin-top: -10.7rem;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: aliceblue;
+  border-top: 2px solid aliceblue;
+  width: 78.2%;
+}
+
+#cl3 {
+  background-color: rgba(196, 218, 237, 0.46);
+  border: 4px;
+  border: 0.5px solid rgb(112, 177, 234);
+  box-shadow: 0px 0px 5px rgb(112, 177, 234);
+  width: 63%;
+}
+
+#cl3:hover {
+  background-color: rgb(112, 177, 234);
+  transition: 0.3s;
+  opacity: 1;
+  font-weight: bold;
+}
+
+#cl2 {
+  background-color: rgba(245, 245, 220, 0.459);
+  border: 4px;
+  border: 0.5px solid #f9e076;
+  box-shadow: 2px 2px 5px #f9e076;
+  width: 63%;
+}
+
+#cl2:hover {
+  background-color: #f9e076;
+  transition: 0.3s;
+  opacity: 1;
+  font-weight: bold;
+}
+
+#cl1 {
+  background-color: #efdecd7a;
+  border: 4px;
+  border: 0.5px solid #e08b3e;
+  box-shadow: 2px 2px 5px #e08b3e;
+  width: 63%;
+}
+
+#cl1:hover {
+  transition: 0.3s;
+  opacity: 1;
+  background-color: #e08b3e;
+  font-weight: bold;
+}
+
+.services::before {
+  content: "";
+  position: absolute;
+  width: 105%;
+  z-index: -1;
+  height: 282%;
+  background: url("pexels-mat-brown-1395967.jpg") no-repeat center center/cover;
+  filter: brightness(85%);
+  margin-top: 2px solid aliceblue;
+}
+
+.services:hover::before {
+  content: "";
+  position: absolute;
+  width: 105%;
+  z-index: -1;
+  height: 315%;
+  background: url("pexels-mat-brown-1395967.jpg") no-repeat center center/cover;
+  filter: brightness(55%);
+  transition: 1s;
+}
+
+.services {
+  height: 120rem;
+  margin-top: -21.2rem;
+}
+
+.h-primaryC {
+  font-family: "Raleway", sans-serif;
+  font-size: 41px;
+  margin-left: 2rem;
+  margin-right: auto;
+  margin-top: -13rem;
+  color: aliceblue;
+  text-align: center;
+  border-top: 2px solid aliceblue;
+  padding-left: 0;
+}
+
+#clients img {
+  height: 64px;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+#client-sect::before {
+  content: "";
+  position: absolute;
+  background: url("style.jpg") no-repeat center center/cover;
+  width: 105%;
+  height: 55%;
+  z-index: -1;
+  filter: brightness(65%);
+}
+
+#client-sect:hover::before {
+  content: "";
+  position: absolute;
+  background: url("style.jpg") no-repeat center center/cover;
+  width: 105%;
+  height: 80%;
+  z-index: -1;
+  filter: brightness(35%);
+  transition: 0.5s;
+}
+
+#client-sect {
+  height: 15rem;
+}
+
+#nv {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 0;
+  margin: 0.15rem 0.6rem;
+  background-color: #3b423f41;
+  border-radius: 8px;
+}
+
+#nv:hover {
+  background-color: rgba(25, 24, 32, 0.689);
+  border-radius: 24px;
+  transition: 0.5s;
+}
+
+#nv::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 90%;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  padding: 4px 125px;
+  height: 148rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#home::before {
+  content: "";
+  position: absolute;
+  background: url("pizza-329523.jpg") no-repeat center center/cover;
+  height: 350%;
+  width: 110%;
+  z-index: -1;
+  top: -5px;
+  filter: brightness(65%);
+}
+
+#home:hover::before {
+  content: "";
+  position: absolute;
+  background: url("pizza-329523.jpg") no-repeat center center/cover;
+  height: 405%;
+  width: 110%;
+  z-index: -1;
+  top: -5px;
+  filter: brightness(35%);
+  transition: 0.5s;
+}
+
+.imb {
+  display: flex;
+  flex-direction: column;
+}
+
+.h-primary {
+  font-size: 2.3rem;
+  padding: 2px;
+  display: block;
+  font-family: "Raleway", sans-serif;
+  margin: 4.2rem auto;
+  text-align: center;
+}
+
+.lo {
+  height: 345px;
+  margin: auto;
+  display: inline;
+  opacity: 0.68;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.lo:hover {
+  opacity: 1;
+  border-radius: 28px;
+  transition: 0.3s;
+}
+
+.rl {
+  height: 385px;
+}
+
+#nv::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 90%;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+/*Navigation Bar: Logo and Image */
+#lg {
+  margin: 0px 25px;
+}
+
+#ph {
+  width: 18vw;
+  height: 4vh;
+}
+
+#nv ul {
+  display: flex;
+}
+
+#nv ul li {
+  display: flex;
+  list-style: none;
+}
+
+#nv ul li a {
+  display: block;
+  padding: 2px 0px;
+  font-size: 0.4rem;
+  font-family: "Raleway", sans-serif;
+  border-radius: 20px;
+  margin-left: 27px;
+  text-decoration: none;
+  color: yellow;
+}
+
+#nv ul li a:hover {
+  color: #3d9dfa;
+  background-color: yellow;
+  transition: 0.2s;
+}
+
+#mph {
+  margin-top: 1rem;
+}
+
+#contact::before {
+  content: "";
+  position: absolute;
+  width: 105%;
+  height: 100%;
+  z-index: -1;
+  background: url("pexels-pixabay-207456.jpg") no-repeat center center/cover;
+  filter: brightness(75%);
+  margin-top: 2px solid aliceblue;
+}
+
+#contact:hover::before {
+  content: "";
+  position: absolute;
+  width: 105%;
+  height: 100%;
+  z-index: -1;
+  background: url("pexels-pixabay-207456.jpg") no-repeat center center/cover;
+  filter: brightness(45%);
+  transition: 1s;
+}
+
+footer {
+  width: 100%;
+  border-right: 1.129rem solid black;
+}

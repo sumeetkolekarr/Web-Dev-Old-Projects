@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+}
+
+.navItems li a{
+    text-decoration: none;
+    display: flex;
+    padding: 2px;
+    margin: auto;
+    flex-direction: column;
+    padding-left: 5px;
+}
+
+.navItems li{
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.navItems {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#mid_a{
+    margin-right: 20px;
+}
+
+#last_a{
+    margin-left: -176px;
+}
