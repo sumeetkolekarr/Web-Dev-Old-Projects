@@ -1,8 +1,8 @@
 body {
-    height: 450vh;
-    width: 85vw;
+    height: 370vh;
+    width: 100vw;
     overflow-y: visible;
-    overflow-x: visible;
+    overflow-x: hidden;
 }
 
 .container {
@@ -13,7 +13,7 @@ body {
 
 nav {
     display: flex;
-    width: 100%;
+    width: 100vw;
     justify-content: space-around;
     height: 80px;
     line-height: 80px;
@@ -26,7 +26,7 @@ nav {
 
 .navItems li {
     list-style: none;
-    margin: 0 7px;
+    margin: 0 6px;
 }
 
 .navItems li a {
@@ -35,9 +35,9 @@ nav {
     letter-spacing: 0;
     text-decoration: none;
     text-transform: capitalize;
-    margin-left: .6rem;
+    margin-left: .01rem;
     transition: ease-out .5s;
-    font-size: 12px;
+    font-size: 6px;
 }
 
 .logo {
@@ -45,7 +45,7 @@ nav {
     font-size: 12px;
     font-weight: 800;
     color: #282b2d;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     cursor: pointer;
     text-transform: uppercase;
     margin-left: 0rem;
@@ -76,8 +76,8 @@ b {
 .wrapper::before {
     position: absolute;
     content: "";
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     left: -12%;
     top: 60%;
@@ -88,8 +88,8 @@ b {
 .wrapper::after {
     position: absolute;
     content: "";
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     left: 35%;
     top: 18%;
@@ -121,12 +121,12 @@ h1 {
 
 hr {
     /* margin-top: 25rem; */
-    width: 90%;
-    margin-top: 50vh;
+    width: 80vw;
+    /* margin-top: 50vh; */
 }
 
 #Splash {
-    height: 250px;
+    height: 180px;
     margin-left: -50px;
     margin-bottom: 0rem;
     animation: animateUser1 4s linear infinite;
@@ -140,42 +140,121 @@ hr {
 }
 
 nav {
-    margin-bottom: 22vh;
+    margin-bottom: -12vh;
 }
 
-.after::before{
+.links img {
+    height: .7rem;
+    margin-top: 1.75rem;
+}
+
+.links a {
+    font-size: 30px;
+    color: #282b2d;
+    margin: 2px 5px;
+}
+
+.topline {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.multiText {
+    font-size: 32px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.after::before {
     position: absolute;
     content: "";
-    height: 200px;
-    width: 200px;
+    height: 00px;
+    width: 00px;
     border-radius: 50%;
     left: 80%;
     top: 150%;
     background: linear-gradient(45deg, #7f00ff, pink);
     animation: object5 3s linear infinite;
-  }
+}
 
-  .main{
+.main {
     display: flex;
     flex-direction: column;
     /* width: 150%; */
-  }
+}
 
-hr{
+hr {
     margin-bottom: 7.5rem;
 }
 
-.block{
+.block {
     width: 80%;
     margin: 2rem auto
 }
 
-.block1{
+.block1 {
     width: 80%;
     margin: 2rem auto
 }
 
-.block2{
+.block2 {
     width: 80%;
     margin: 2rem auto
 }
+
+.block1::after {
+    position: absolute;
+    content: "";
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    left: 77%;
+    top: 80%;
+    background: linear-gradient(45deg, #7f00ff, pink);
+    animation: object4 2s linear infinite;
+}
+
+@keyframes object4 {
+    50% {
+      /* left: 85%; */
+      top: 86%;
+    }
+  }
+.block2::after {
+    position: absolute;
+    content: "";
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    left: 77%;
+    top: 80%;
+    background: linear-gradient(45deg, #7f00ff, pink);
+    animation: object6 3s linear infinite;
+}
+
+@keyframes object6 {
+    50% {
+      /* left: 85%; */
+      top: 86%;
+    }
+  }
+.block::after {
+    position: absolute;
+    content: "";
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    left: 77%;
+    top: 80%;
+    background: linear-gradient(45deg, #7f00ff, pink);
+    animation: object7 4s linear infinite;
+}
+
+@keyframes object7 {
+    50% {
+      /* left: 85%; */
+      top: 86%;
+    }
+  }
