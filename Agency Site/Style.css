@@ -18,7 +18,7 @@ body {
 
 nav {
   display: flex;
-  width: 100%;
+  width: 100vw;
   justify-content: space-around;
   height: 80px;
   line-height: 80px;

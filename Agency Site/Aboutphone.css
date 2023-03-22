@@ -1,0 +1,181 @@
+body {
+    height: 450vh;
+    width: 610px;
+    overflow-y: visible;
+    overflow-x: visible;
+}
+
+.container {
+    width: 100%;
+    background-color: #f3f5f8;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    z-index: 111;
+    background: rgba(128, 128, 128, 0.178);
+    border-radius: 0 0 1rem 1rem;
+    position: sticky;
+    z-index: 5;
+}
+
+.navItems li {
+    list-style: none;
+    margin: 0 7px;
+}
+
+.navItems li a {
+    /* font-size: 15px; */
+    color: #282b2d;
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left: .6rem;
+    transition: ease-out .5s;
+    font-size: 12px;
+}
+
+.logo {
+    display: flex;
+    font-size: 12px;
+    font-weight: 800;
+    color: #282b2d;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-left: 0rem;
+}
+
+b {
+    font-size: 30px;
+    color: #7f00ff;
+}
+
+.navItems li a:hover {
+
+    color: #7f00ff;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: ease-out .5s;
+}
+
+.links a:hover {
+
+    color: #7f00ff;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.wrapper::before {
+    position: absolute;
+    content: "";
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    left: -12%;
+    top: 60%;
+    background: linear-gradient(45deg, #7f00ff, pink);
+    animation: object1 2s linear infinite;
+}
+
+.wrapper::after {
+    position: absolute;
+    content: "";
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    left: 35%;
+    top: 18%;
+    background: linear-gradient(45deg, #7f00ff, pink);
+    animation: object2 3s linear infinite;
+}
+
+@keyframes object1 {
+    50% {
+        left: -15%;
+        top: 62%;
+    }
+}
+
+@keyframes object2 {
+    50% {
+        left: 35%;
+        top: 15%;
+    }
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.contain {
+    height: 120rem;
+}
+
+hr {
+    /* margin-top: 25rem; */
+    width: 90%;
+    margin-top: 50vh;
+}
+
+#Splash {
+    height: 250px;
+    margin-left: -50px;
+    margin-bottom: 0rem;
+    animation: animateUser1 4s linear infinite;
+}
+
+@keyframes animateUser1 {
+    50% {
+        margin-left: -80px;
+        margin-top: 125px;
+    }
+}
+
+nav {
+    margin-bottom: 22vh;
+}
+
+.after::before{
+    position: absolute;
+    content: "";
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    left: 80%;
+    top: 150%;
+    background: linear-gradient(45deg, #7f00ff, pink);
+    animation: object5 3s linear infinite;
+  }
+
+  .main{
+    display: flex;
+    flex-direction: column;
+    /* width: 150%; */
+  }
+
+hr{
+    margin-bottom: 7.5rem;
+}
+
+.block{
+    width: 80%;
+    margin: 2rem auto
+}
+
+.block1{
+    width: 80%;
+    margin: 2rem auto
+}
+
+.block2{
+    width: 80%;
+    margin: 2rem auto
+}
