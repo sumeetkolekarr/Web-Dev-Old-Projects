@@ -1,6 +1,10 @@
+html{
+  width:max-content;
+}
+
 body {
-  height: 100vw;
-  width: 610px;
+  height: 100vh;
+  width: 80vw;
   overflow-y: visible;
   overflow-x: visible;
 }
