@@ -1,6 +1,6 @@
 body {
   height: 100vw;
-  width: 620px;
+  width: 610px;
   overflow-y: visible;
   overflow-x: visible;
 }
@@ -122,5 +122,23 @@ h1{
 hr{
   /* margin-top: 25rem; */
   width: 90%;
-  
+  margin-top: 50vh;
+}
+
+#Splash {
+  height: 250px;
+  margin-left: -50px;
+  margin-bottom: -5rem;
+  animation: animateUser1 4s linear infinite;
+}
+
+@keyframes animateUser1 {
+  50% {
+    margin-left: -80px;
+    margin-top: 125px;
+  }
+}
+
+nav{
+  margin-bottom: 22vh;
 }
