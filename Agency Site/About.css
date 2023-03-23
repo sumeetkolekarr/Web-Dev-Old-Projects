@@ -1,7 +1,7 @@
 .photo {
   height: 250px;
   border-radius: 12px;
-  margin: auto 0px;
+  margin: auto 0.8rem;
 }
 
 .block {
@@ -89,22 +89,34 @@ p {
   animation: object4 3s linear infinite;
 }
 
-.after::before{
+.block::after {
   position: absolute;
   content: "";
-  height: 400px;
-  width: 400px;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
-  left: 80%;
-  top: 150%;
+  left: 88%;
+  top: 80%;
   background: linear-gradient(45deg, #7f00ff, pink);
-  animation: object5 3s linear infinite;
+  animation: object4 3s linear infinite;
+}
+
+.block2::after {
+  position: absolute;
+  content: "";
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  left: 88%;
+  top: 80%;
+  background: linear-gradient(45deg, #7f00ff, pink);
+  animation: object4 3s linear infinite;
 }
 
 @keyframes object4 {
     50% {
       left: 85%;
-      top: 80%;
+      top: 82%;
     }
   }
 
@@ -121,4 +133,8 @@ body{
 
 .main{
   display: flex;
+}
+
+p{
+  width: 103%;
 }
