@@ -115,6 +115,7 @@ b {
 }
 
 .wrapper::after {
+  position: sticky;
   position: absolute;
   content: "";
   height: 200px;
@@ -165,6 +166,7 @@ b {
   width: 45px;
   bottom: 10px;
   background-color: #7f00ff;
+  background-position: fixed;
 }
 
 h1 {
